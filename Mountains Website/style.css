@@ -1,0 +1,39 @@
+body {
+  overflow-x: hidden;
+}
+.myNav {
+  border-bottom: 1px solid lightgray;
+}
+.herosection {
+  margin-top: 5%;
+}
+.heroImg {
+  width: 780px !important;
+  height: 500px !important;
+  animation-name: anime;
+  animation-duration: 0.8s;
+  animation-delay: .5s;
+}
+@keyframes anime {
+  0% {
+    transform: skewY(2deg)  rotateX(0deg) rotateZ(20deg) rotateY(10deg);
+  }
+  100% {
+    transform:  skewY( 0deg) rotateX(0deg) rotateZ(0deg) rotateY(0deg);
+  }
+}
+
+.mainSection {
+  margin-top: 5%;
+}
+.gridBtn {
+  position: relative;
+  margin-top: 5%;
+  left: 45%;
+  background: transparent;
+  padding: 15px;
+}
+.footer-container{
+    background-color: black;
+    height: 600px;
+}
